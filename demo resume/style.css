@@ -1,0 +1,56 @@
+:root {
+    --main-bg-color: rgb(27, 158, 245);
+    --gradient-color: linear-gradient(to bottom right, rgb(0, 183, 255), rgb(255, 255, 255));
+    --font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    --oblique-color: rgb(179, 255, 255);
+    --aqua-color: aqua;
+    --aqua-text-color: black;
+}
+
+body {
+    background-color: var(--main-bg-color);
+    background-image: var(--gradient-color);
+}
+
+li {
+    display: inline-block;
+    padding: 17px;
+}
+
+nav {
+    background-color: var(--aqua-color);
+}
+
+nav a {
+    color: var(--aqua-text-color);
+    font-size: medium;
+    text-decoration: none;
+    font-family: var(--font-family);
+}
+
+#summary,
+#Skills,
+#References,
+#pix,
+#pic,
+#EducationalQ,
+#WorkExp,
+#Projects {
+    font-style: oblique;
+    color: var(--oblique-color);
+}
+
+#pix,
+#pic {
+    border-radius: 100%;
+    padding: 10px;
+}
+
+#info {
+    text-align: center;
+}
+
+.text {
+    color: aqua;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri';}
